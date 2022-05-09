@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #9a8c98;
+  color: #22223b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stop-watch{
+  background-color: #f2e9e4;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.stop-watch h1{
+  font-size: 6rem;
+  margin: 1rem 0;
+}
+.stop-watch .btn{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #4a4e69;
+  font-size: 1.8rem;
+  color: #f2e9e4;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 5px;
+}
+.stop-watch .btn.green{
+  background-color: #06d6a0;
+}
+.stop-watch .btn.red{
+  background-color: #ef476f;
+}
+.stop-watch .btn.blue{
+  background-color: #0077b6;
+}
